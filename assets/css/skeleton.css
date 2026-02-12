@@ -48,6 +48,8 @@
   box-sizing: border-box; }
 
 .column img {
+    width: 100%;
+    height: auto;
     padding: 15px 0; }
 
 /* For devices larger than 400px */
@@ -476,6 +478,8 @@ form {
 .thumb {
   min-height: 16em; }
 .thumb img {
+  width: 100%;
+  height: auto;
   cursor: pointer; }
 .fade {
   animation-name: fade;

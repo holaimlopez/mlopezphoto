@@ -1,2 +1,16 @@
 Marcelo L. Lopez's Photography website
 
+All photographs, imagery, and text content displayed on this website and within this repository are the exclusive property of [Marcelo Lopez/Lopez Photography/LopezPhoto] and are protected by international copyright laws.
+
+Unless otherwise stated in writing by the owner, you may not:
+- Download, copy, or store the images for anything other than personal viewing.
+
+- Modify, edit, or create derivative works from the photographs.
+
+- Use the images for commercial purposes, advertisements, or social media promotion.
+
+- Distribute or redistribute the images on other platforms or websites.
+
+The code used to build this website (HTML/CSS/JS) is provided for educational or portfolio review purposes. However, the media assets (images/videos) are strictly excluded from any implied open-source usage.
+
+If you would like to license a photograph for commercial or personal use, please contact: LOPEZLMARCELO@GMAIL.COM 
