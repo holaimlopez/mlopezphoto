@@ -12,20 +12,13 @@ collections_dir: series
 collections:
   home:
     output: true
-  bastilleday:
-    output: true
   davgil:
     output: true
   friends:
     output: true
   headshots:
     output: true
-  cn_fishnet:
-    output: true
-  venice:
-    output: true
-  pondi:
-    output: true
+
 
 markdown: kramdown
 kramdown:

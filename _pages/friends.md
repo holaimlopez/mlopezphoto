@@ -1,7 +1,7 @@
 ---
 title: Friends
 layout: default
-description: Headshots with friends.
+description: Fun with friends.
 type: headshots
-order: 1
+order: 2
 ---

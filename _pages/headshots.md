@@ -1,7 +1,7 @@
 ---
-title: Mumbai
+title: Portraits
 layout: default
-description: Only Matin Parr fans will get this.
+description: Casual, and Portraits
 type: headshots
-order: 2
+order: 3
 ---
