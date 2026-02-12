@@ -3,7 +3,7 @@ title: Culture/Politics
 layout: rest
 description: Editorials, Events, and Fun
 type: parent
-order: 3
+order: 4
 ---
 
 <div class="section main">

@@ -3,7 +3,7 @@ title: Headshots
 layout: rest
 description: Editorial and Professional
 type: parent
-order: 2
+order: 3
 ---
 
 <div class="section main">
