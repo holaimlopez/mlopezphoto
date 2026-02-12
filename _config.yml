@@ -1,5 +1,5 @@
 title: Marcelo L. Lopez Photography
-url:  https://www.mlopezphoto.com
+url:  https://github.com/holaimlopez/mlopezphoto
 baseurl: /mlopezphoto
 
 author: Marcelo Lopez Lopez
@@ -12,30 +12,20 @@ collections_dir: series
 collections:
   home:
     output: true
-  pondi:
+  bastilleday:
     output: true
-  kochi:
+  davgil:
     output: true
-  rj_women:
+  friends:
     output: true
-  venice:
-    output: true
-  chinatown:
-    output: true
-  rimi:
-    output: true
-  london:
-    output: true
-  mumbai:
+  headshots:
     output: true
   cn_fishnet:
     output: true
-  market:
-    output: 
-  bastilleday:
+  venice:
     output: true
-  kathakali:
-    output: true 
+  pondi:
+    output: true
 
 markdown: kramdown
 kramdown:
