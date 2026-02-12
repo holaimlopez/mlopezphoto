@@ -10,14 +10,20 @@ include: ['_pages']
 collections_dir: series
 
 collections:
-#  home:
-#    output: true
-#  davgil:
-#    output: true
-#  friends:
-#    output: true
-#  headshots:
-#    output: true
+  home:
+    output: true
+  davgil:
+    output: true
+  editorial:
+    output: true
+  friends:
+    output: true
+  fuck:
+    output: true
+  headshots:
+    output: true
+  politics:
+    output: true
 
 markdown: kramdown
 kramdown:
