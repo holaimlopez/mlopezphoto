@@ -1,9 +1,9 @@
 ---
-title: Culture & Politics
+title: Culture/Politics
 layout: rest
 description: Editorials, Events, and Fun
 type: parent
-order: 4
+order: 3
 ---
 
 <div class="section main">

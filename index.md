@@ -7,14 +7,14 @@ order: 1
 
 <div class="section header">
 	<div class="container">
-		<img src="{{ "/assets/img/translogo.jpg" | relative_url }}">
-		<h3 class="section-heading">photography</h3>
+		<img src="{{ "/assets/img/translogo.png" | relative_url }}">
+		<h3 class="section-heading">Marcelo Lopez Lopez</h3>
 		<p class="section-description">
 			Bronx (NYC) Based Photographer & Creative Partner.
 		</p>
 		<div id="navbar-wrapper">
 			<div id="navbar">
-				<img id="brand" class="hide" src="{{ "/assets/img/translogo.jpg" | relative_url }}">
+				<img id="brand" class="hide" src="{{ "/assets/img/translogo.png" | relative_url }}">
 				{% assign mypages = site.pages | where: "type", "parent" | sort: "order" %}
 				{% for page in mypages %}
 				<a class="button" href="{{ page.url | relative_url }}">{{ page.title }}</a>
