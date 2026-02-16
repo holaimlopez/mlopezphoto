@@ -31,12 +31,11 @@ order: 1
 		</p>
 		<p markdown="2" style="text-align: center;" style="font-size: 18px;">
 			Based in The Bronx, New York City <br>
-			*Available for travel* <br>
+			*Available for travel <br>
 		</p>
 	</div>
 </div>
-	<!-- </div>
-	<div class="container"> -->
+
 <div class="section entrypick">
 	<div class="container">
 		<div class="row" id="gallery">
@@ -46,7 +45,7 @@ order: 1
 			<div class="column">
 			{% for image in list limit: 1 %}
 				<article class="thumb">
-					<img class="lozad u-max-tiny-width" data-src="{{ coll.label | append: '/' | append: image.name }}" alt="{{ image.basename }}" />
+					<img class="lozad u-tiny-width" data-src="{{ coll.label | append: '/' | append: image.name }}" alt="{{ image.basename }}" />
 				</article>
 				{% endfor %}
 			</div>
