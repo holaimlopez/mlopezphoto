@@ -52,18 +52,3 @@ order: 1
 		</div>
 	</div>
 </div>
-
-
-
-
-<!-- 
-    <img src="{{ "/assets/img/webshot.webp" | relative_url }}" alt="Marcelo Lopez's Portrait" style="max-width: 540px; width: 100%; height: auto; display: block; margin-left: auto; margin-right: auto;">
-
-<div class="one-half column">
-			{% for image in list offset: l %}
-				<article class="thumb">
-					<img class="lozad u-max-full-width" data-src="{{ coll.label | append: '/' | append: image.name }}" alt="{{ image.basename }}" />
-				</article>
-			{% endfor %}
-		</div>
--->
