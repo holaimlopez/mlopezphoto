@@ -26,12 +26,15 @@ order: 1
 
 <div class="section main">
 	<div class="container">
-		<h4> <p markdown="1" style="text-align: center;">
-        HEADSHOTS, PORTRAITS AND EDITORIAL PHOTOGRAPHY <br> <br>
-		<p style="text-align: center;" style="font-size: 16px;">
-		Based in The Bronx, New York City <br>
-		**Available for travel** <br>
-        </p>
+		<div class="row" id="headline">
+			<h4> <p markdown="1" style="text-align: center;">
+        	HEADSHOTS, PORTRAITS AND EDITORIAL PHOTOGRAPHY <br> 
+			</p>
+			<p style="text-align: center;" style="font-size: 15px;">
+			Based in The Bronx, New York City <br>
+			*Available for travel* <br>
+        	</p>
+		</div>
 	<!-- </div>
 	<div class="container"> -->
 		<div class="row" id="gallery">
