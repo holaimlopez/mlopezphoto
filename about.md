@@ -22,5 +22,3 @@ order: 2
         Let's build something together that feels as good as it looks
         </p>
         <img src="{{ "/assets/img/webshot.webp" | relative_url }}" alt="Marcelo Lopez's Portrait" style="max-width: 360px; width: 100%; height: auto; display: block; margin-left: auto; margin-right: auto;">
-    </div>
-</div>
