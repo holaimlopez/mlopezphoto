@@ -1,5 +1,5 @@
 ---
-title: Culture/Politics
+title: Culture & Politics
 layout: rest
 description: Editorials, Events, and Fun
 type: parent
