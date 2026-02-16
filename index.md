@@ -13,8 +13,8 @@ order: 1
 			Bronx (NYC) Based Photographer & Creative Partner.
 		</p>
 		<div class="linker">
-            <a href="mailto:lopezlmarcelo@gmail.com"><i class="far fa-paper-plane" style="font-size:18px"></i></a>
-			<a href="sms:+13479127485"><i class="fa fa-mobile-alt" style="font-size:18px"></i></a>
+            <a href="mailto:lopezlmarcelo@gmail.com"><i class="far fa-paper-plane" style="font-size:22px"></i></a>  &emsp;&emsp;&emsp;
+			<a href="sms:+13479127485"><i class="fas fa-mobile-alt" style="font-size:22px"></i></a>
         </div>
 		<div id="navbar-wrapper">
 			<div id="navbar">
@@ -29,7 +29,7 @@ order: 1
 </div>
 
 <div class="section main">
-	<div class="container">
+	<div class="text">
 		<h4> <p markdown="1" style="text-align: center;">
     		HEADSHOTS, PORTRAITS AND EDITORIAL PHOTOGRAPHY
 		</p> </h4>
@@ -37,15 +37,8 @@ order: 1
 		Based in The Bronx, New York City <br>
 		*Available for travel*
 		</p>
-<!--	</div>
-	<div class="container">
-		<div class="row" id="gallery">
-			{% assign coll = site.collections | where: "label", "home" | first %}
-			{% assign list = coll.files | sort: "basename" %}
-			<!!--{% assign l = coll.files.size | divided_by: 2 | ceil %} --!!>
--->
-		<div class="column">
+	</div>
+	<div class="column">
         	<img src="{{ "/assets/img/MLL0971.jpeg" | relative_url }}" alt="Photo of Marcelo Lopez Lopez, Bronx, NYC Photographer" style="max-width: 360px; width: 100%; height: auto; display: block; margin-left: auto; margin-right: auto;">
-		</div>
 	</div>
 </div>
