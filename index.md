@@ -12,6 +12,10 @@ order: 1
 		<p class="section-description">
 			Bronx (NYC) Based Photographer & Creative Partner.
 		</p>
+		<div class="links">
+            <a href="mailto:lopezlmarcelo@gmail.com"><i class="fa-solid fa-paper-plane" style="font-size:12px"></i></a>
+			<a href="tel:+13479127485"><i class="fa-solid fa-phone" style="font-size:12px"></i></a>
+        </div>
 		<div id="navbar-wrapper">
 			<div id="navbar">
 				<img id="brand" class="hide" src="{{ "/assets/img/translogo.webp" | relative_url }}">
