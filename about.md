@@ -1,9 +1,9 @@
 ---
-title: About Marcelo Lopez Lopez
+title: About Me
 layout: rest
 description: Marcelo Lopez Lopez | Photographer & Creative Partner
 type: parent
-order: 2
+order: 3
 ---
 <div class="section main">
 	<div class="container">

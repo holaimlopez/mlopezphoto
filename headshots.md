@@ -1,9 +1,9 @@
 ---
-title: Headshots
+title: Headshots & Portraits
 layout: default
 description: Editorial and Professional Portraits
 type: parent
-order: 3
+order: 2
 ---
 
 <!--
