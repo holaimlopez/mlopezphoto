@@ -27,12 +27,13 @@ order: 1
 <div class="section main">
 	<div class="container">
 		<h4> <p markdown="1" style="text-align: center;">
-        HEADSHOTS, PORTRAITS AND EDITORIAL PHOTOGRAPHY <br> </h4>
-		<h6> Based in The Bronx, New York City <br> </h6>
-		**Available for travel**
+        HEADSHOTS, PORTRAITS AND EDITORIAL PHOTOGRAPHY <br> <br>
+		<p style="text-align: center;" style="font-size: 16px;">
+		Based in The Bronx, New York City <br>
+		**Available for travel** <br>
         </p>
-	</div>
-	<div class="container">
+	<!-- </div>
+	<div class="container"> -->
 		<div class="row" id="gallery">
 			{% assign coll = site.collections | where: "label", "home" | first %}
 			{% assign list = coll.files | sort: "basename" %}
@@ -44,6 +45,10 @@ order: 1
 				</article>
 				{% endfor %}
 			</div>
+		</div>
+	</div>
+</div>
+
 			<!--<div class="one-half column">
 				{% for image in list offset: l %}
 				<article class="thumb">
@@ -51,6 +56,3 @@ order: 1
 				</article>
 				{% endfor %}
 			</div>-->
-		</div>
-	</div>
-</div>
