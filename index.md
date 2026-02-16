@@ -37,6 +37,8 @@ order: 1
 		Based in The Bronx, New York City <br>
 		*Available for travel*
 		</p>
-        <img src="{{ "/assets/img/MLL0971.jpeg" | relative_url }}" alt="Photo of Marcelo Lopez Lopez, Bronx, NYC Photographer" style="max-width: 360px; width: 100%; height: auto; display: block;">
+		<div style="text-align: center;">
+        	<img src="{{ "/assets/img/MLL0971.jpeg" | relative_url }}" alt="Photo of Marcelo Lopez Lopez, Bronx, NYC Photographer" style="max-width: 360px; width: 100%; height: auto; display: block;">
+		</div>
 	</div>
 </div>
