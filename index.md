@@ -29,7 +29,7 @@ order: 1
 		<h4> <p markdown="1" style="text-align: center;">
     		HEADSHOTS, PORTRAITS AND EDITORIAL PHOTOGRAPHY <br> 
 		</p> </h4>
-		<p> markdown="1" style="text-align: center;" style="font-size: 18px;">
+		<p markdown="1" style="text-align: center;" style="font-size: 18px;">
 		Based in The Bronx, New York City <br>
 		*Available for travel <br>
 		</p>
