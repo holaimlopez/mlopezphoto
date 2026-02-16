@@ -26,6 +26,13 @@ order: 1
 
 <div class="section main">
 	<div class="container">
+		<h4> <p markdown="1" style="text-align: center;">
+        HEADSHOTS, PORTRAITS AND EDITORIAL PHOTOGRAPHY <br> <br>
+		<h5> Based in The Bronx, New York City <br>
+		<h6> *Available for travel*
+        </p>
+	</div>
+	<div class="container">
 		<div class="row" id="gallery">
 			{% assign coll = site.collections | where: "label", "home" | first %}
 			{% assign list = coll.files | sort: "basename" %}
