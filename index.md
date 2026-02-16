@@ -33,19 +33,15 @@ order: 1
 		Based in The Bronx, New York City <br>
 		*Available for travel*
 		</p>
-	</div>
+<!--	</div>
 	<div class="container">
 		<div class="row" id="gallery">
 			{% assign coll = site.collections | where: "label", "home" | first %}
 			{% assign list = coll.files | sort: "basename" %}
-			<!--{% assign l = coll.files.size | divided_by: 2 | ceil %}-->
-			<div class="column">
-			{% for image in list limit: 1 %}
-				<article class="thumb">
-					<img class="lozad u-tiny-width" data-src="{{ coll.label | append: '/' | append: image.name }}" alt="{{ image.basename }}" />
-				</article>
-				{% endfor %}
-			</div>
+			<!!--{% assign l = coll.files.size | divided_by: 2 | ceil %} --!!>
+-->
+		<div class="column">
+        	<img src="{{ "series/_home/1MLL0971.jpeg" | relative_url }}" alt="Photo of Marcelo Lopez Lopez, Bronx, NYC Photographer" style="max-width: 360px; width: 100%; height: auto; display: block; margin-left: auto; margin-right: auto;">
 		</div>
 	</div>
 </div>
