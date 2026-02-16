@@ -15,7 +15,7 @@ order: 1
 		<div class="links">
             <a href="mailto:lopezlmarcelo@gmail.com"><i class="far fa-paper-plane" style="font-size:22px"></i></a> &emsp;&emsp;&emsp;
 			<a href="sms:+13479127485"><i class="fas fa-mobile-alt" style="font-size:22px"></i></a>
-        </div>
+		</div>
 		<div id="navbar-wrapper">
 			<div id="navbar">
 				<img id="brand" class="hide" src="{{ "/assets/img/translogo.webp" | relative_url }}">
@@ -28,12 +28,12 @@ order: 1
 	</div>
 </div>
 
-<div class="section main">
-	<div class="text">
+<div class="section first">
+	<div class="headline">
 		<h4> <p markdown="1" style="text-align: center;">
     		HEADSHOTS, PORTRAITS AND EDITORIAL PHOTOGRAPHY
 		</p> </h4>
-		<p markdown="2" style="text-align: center;" style="font-size: 16px;">
+		<p style="text-align: center;" style="font-size: 16px; margin-left: auto; margin-right: auto;">
 		Based in The Bronx, New York City <br>
 		*Available for travel*
 		</p>
