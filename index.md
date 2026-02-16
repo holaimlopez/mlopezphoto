@@ -29,9 +29,10 @@ order: 1
 		<div class="row" id="headline">
 			<h4> <p markdown="1" style="text-align: center;">
         	HEADSHOTS, PORTRAITS AND EDITORIAL PHOTOGRAPHY <br> 
+			</p>
 			<p markdown="2" style="text-align: center;" style="font-size: 18px;">
 			Based in The Bronx, New York City <br>
-			*Available for travel* <br>
+			*Available for travel* <br> </p>
 		</div>
 	<!-- </div>
 	<div class="container"> -->
@@ -40,7 +41,7 @@ order: 1
 			{% assign list = coll.files | sort: "basename" %}
 			<!--{% assign l = coll.files.size | divided_by: 2 | ceil %}-->
 			<div class="column">
-				{% for image in list limit: 1 %}
+			{% for image in list limit: 1 %}
 				<article class="thumb">
 					<img class="lozad u-max-full-width" data-src="{{ coll.label | append: '/' | append: image.name }}" alt="{{ image.basename }}" />
 				</article>
