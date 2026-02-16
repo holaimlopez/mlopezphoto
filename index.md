@@ -41,7 +41,7 @@ order: 1
 			<!!--{% assign l = coll.files.size | divided_by: 2 | ceil %} --!!>
 -->
 		<div class="column">
-        	<img src="{{ "/_home/1MLL0971.jpeg" | relative_url }}" alt="Photo of Marcelo Lopez Lopez, Bronx, NYC Photographer" style="max-width: 360px; width: 100%; height: auto; display: block; margin-left: auto; margin-right: auto;">
+        	<img src="{{ "/assets/img/MLL0971.jpeg" | relative_url }}" alt="Photo of Marcelo Lopez Lopez, Bronx, NYC Photographer" style="max-width: 360px; width: 100%; height: auto; display: block; margin-left: auto; margin-right: auto;">
 		</div>
 	</div>
 </div>
