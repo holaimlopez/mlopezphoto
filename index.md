@@ -31,7 +31,7 @@ order: 1
 		</p> </h4>
 		<p markdown="1" style="text-align: center;" style="font-size: 18px;">
 		Based in The Bronx, New York City <br>
-		*Available for travel <br>
+		*Available for travel*
 		</p>
 	</div>
 	<div class="container">
