@@ -375,6 +375,9 @@ form {
 
 /* Utilities
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+.u-tiny-width {
+  width: 25%;
+  box-sizing: border-box; }
 .u-limit-width {
   width: 50%;
   box-sizing: border-box; }
