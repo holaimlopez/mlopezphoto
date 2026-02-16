@@ -21,4 +21,4 @@ order: 2
         <h4> <p markdown="2">
         Let's build something together that feels as good as it looks
         </p>
-    <img src="{{ "/assets/img/webshot.webp" | relative_url }}" alt="Marcelo Lopez's Portrait" style="max-width: 720px; width: 100%; height: auto; display: block; margin-left: auto; margin-right: auto;">
+    <img src="{{ "/assets/img/webshot.webp" | relative_url }}" alt="Marcelo Lopez's Portrait" style="max-width: 540px; width: 100%; height: auto; display: block; margin-left: auto; margin-right: auto;">

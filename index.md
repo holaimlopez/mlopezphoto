@@ -29,11 +29,9 @@ order: 1
 		<div class="row" id="headline">
 			<h4> <p markdown="1" style="text-align: center;">
         	HEADSHOTS, PORTRAITS AND EDITORIAL PHOTOGRAPHY <br> 
-			</p>
-			<p style="text-align: center;" style="font-size: 15px;">
+			<p markdown="2" style="text-align: center;" style="font-size: 18px;">
 			Based in The Bronx, New York City <br>
 			*Available for travel* <br>
-        	</p>
 		</div>
 	<!-- </div>
 	<div class="container"> -->
@@ -52,10 +50,17 @@ order: 1
 	</div>
 </div>
 
-			<!--<div class="one-half column">
-				{% for image in list offset: l %}
+
+
+
+<!-- 
+    <img src="{{ "/assets/img/webshot.webp" | relative_url }}" alt="Marcelo Lopez's Portrait" style="max-width: 540px; width: 100%; height: auto; display: block; margin-left: auto; margin-right: auto;">
+
+<div class="one-half column">
+			{% for image in list offset: l %}
 				<article class="thumb">
 					<img class="lozad u-max-full-width" data-src="{{ coll.label | append: '/' | append: image.name }}" alt="{{ image.basename }}" />
 				</article>
-				{% endfor %}
-			</div>-->
+			{% endfor %}
+		</div>
+-->
