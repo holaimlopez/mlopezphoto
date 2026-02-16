@@ -385,10 +385,10 @@ form {
   width: 50%;
   box-sizing: border-box; }
 .u-full-width {
-  width: 80%;
+  width: 70%;
   box-sizing: border-box; }
 .u-max-full-width {
-  max-width: 90%;
+  max-width: 80%;
   box-sizing: border-box; }
 .u-pull-right {
   float: right; }

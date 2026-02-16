@@ -28,15 +28,12 @@ order: 1
 	<div class="container">
 		<h4> <p markdown="1" style="text-align: center;">
     		HEADSHOTS, PORTRAITS AND EDITORIAL PHOTOGRAPHY <br> 
-		</p>
-		<p markdown="2" style="text-align: center;" style="font-size: 18px;">
-			Based in The Bronx, New York City <br>
-			*Available for travel <br>
+		</p> </h4>
+		<p> markdown="1" style="text-align: center;" style="font-size: 18px;">
+		Based in The Bronx, New York City <br>
+		*Available for travel <br>
 		</p>
 	</div>
-</div>
-
-<div class="section entrypick">
 	<div class="container">
 		<div class="row" id="gallery">
 			{% assign coll = site.collections | where: "label", "home" | first %}
