@@ -38,7 +38,7 @@ order: 1
 		*Available for travel*
 		</p>
 		<div style="text-align: center;">
-        	<img src="{{ "/assets/img/MLL0971.jpeg" | relative_url }}" alt="Photo of Marcelo Lopez Lopez, Bronx, NYC Photographer" style="max-width: 360px; width: 100%; height: auto; display: block; margin-left: auto; margin-right: auto;">
+        	<img src="{{ "/assets/img/webbanner4.png" | relative_url }}" alt="Photo of Marcelo Lopez Lopez, Bronx, NYC Photographer" style="max-width: 360px; width: 100%; height: auto; display: block; margin-left: auto; margin-right: auto;">
 		</div>
 	</div>
 </div>
