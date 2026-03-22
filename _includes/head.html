@@ -4,7 +4,7 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
   <title>{{ page.title | capitalize }} | {{ site.title }}</title>
-  <meta name="description" content="{{ site.description }}">
+  <meta name="description" content="{{ page.description | default: site.description }}">
   <meta name="author" content="{{ site.author }}">
 
   <!-- Mobile Specific Metas
@@ -24,5 +24,57 @@
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/svg" href="{{ "/assets/img/translogo.webp" | relative_url }}">
+
+
+  <!-- SEO Meta Tags -->
+  <meta property="og:title" content="{{ page.title | capitalize }} | {{ site.title }}" />
+  <meta property="og:description" content="{{ page.description | default: site.description }}" />
+  <meta property="og:image" content="{{ "/assets/img/webbanner1.png" | relative_url }}" />
+  <meta property="og:url" content="{{ page.url | replace: 'index.html', '' | absolute_url }}" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- JSON-LD Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": ["Organization", "LocalBusiness", "Photography"],
+    "name": "Marcelo L. Lopez Photography",
+    "url": "https://github.com/holaimlopez/mlopezphoto",
+    "logo": "https://github.com/holaimlopez/mlopezphoto/assets/img/translogo.webp",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Bronx",
+      "addressRegion": "NY",
+      "postalCode": "104XX",
+      "streetAddress": "Your Street Address Here"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 40.8406,
+      "longitude": -73.8697
+    },
+    "sameAs": [
+      "https://www.instagram.com/yourinstagram/",
+      "https://www.facebook.com/yourfacebookpage/"
+    ],
+    "telephone": "+1-347-912-7485",
+    "email": "lopezlmarcelo@gmail.com",
+    "description": "Bronx, NYC based portrait photographer specializing in headshots, editorial, and political creatives. Book your session today!", 
+    "serviceType": ["Headshots", "Portrait Photography", "Editorial Photography", "Political Photography"],
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "09:00",
+      "closes": "17:00"
+    }
+  }
+  </script>
 
 </head>
