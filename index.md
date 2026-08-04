@@ -10,7 +10,7 @@ type: parent
 order: 1
 ---
 
-{% include header.html title="Marcelo Lopez Lopez Photography" collapsible=false %}
+{% include header.html title="Marcelo Lopez Photography" collapsible=false %}
 
 <div class="section first">
         <div class="headline">
