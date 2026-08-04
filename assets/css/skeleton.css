@@ -166,6 +166,25 @@ p {
   margin-top: 0; }
 .main p {
   text-align: justify; }
+.centered,
+.home-location {
+  text-align: center; }
+.home-location {
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 16px; }
+.about-heading,
+.about-copy {
+  text-align: left; }
+.about-copy {
+  font-size: 20px; }
+.feature-image {
+  display: block;
+  width: 100%;
+  max-width: 360px;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto; }
 
 
 /* Links
@@ -445,8 +464,10 @@ form {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .social i {
   color: #fff;
-  font-size: 2rem;
+  font-size: 3rem;
   margin: 2rem 2rem; }
+.links i {
+  font-size: 2.2rem; }
 .credit {
   font-size: 1rem;
   margin: 2rem 0 -1rem; }
@@ -462,6 +483,14 @@ form {
   height: 3.5rem;
   vertical-align: middle;
   cursor: pointer; }
+.brand-toggle {
+  width: auto;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  line-height: 1;
+  background: transparent; }
 .hide {
   display: none; }
 .sticky {

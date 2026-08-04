@@ -4,4 +4,5 @@ layout: default
 description: My work as a Political Creative
 type: politics
 order: 2
+gallery: politics
 ---

@@ -1,6 +1,6 @@
 title: Marcelo L. Lopez Photography | Bronx NYC Portrait & Headshot Photographer
-url:  https://github.com/holaimlopez/mlopezphoto
-baseurl: /
+url: https://mlopezphoto.com
+baseurl: ""
 
 author: Marcelo Lopez
 description: Bronx, NYC based portrait photographer specializing in headshots, editorial, and political creatives. Book your session today!
@@ -10,13 +10,9 @@ include: ['_pages']
 collections_dir: series
 
 collections:
-  home:
-    output: true
   davgil:
     output: true
   editorial:
-    output: true
-  friends:
     output: true
   fun:
     output: true
@@ -28,3 +24,7 @@ collections:
 markdown: kramdown
 kramdown:
   input: GFM
+
+exclude:
+  - LICENSE.txt
+  - README.md

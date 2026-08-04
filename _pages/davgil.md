@@ -4,4 +4,5 @@ layout: default
 description: Davgil, Singer
 type: project
 order: 1
+gallery: davgil
 ---

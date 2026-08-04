@@ -1,110 +1,22 @@
 <div class="section footer dark">
     <div class="container">
-        <img src="{{ "/assets/img/whitelogo.webp" | relative_url }}">
+        <img src="{{ "/assets/img/whitelogo.webp" | relative_url }}" alt="Marcelo L. Lopez Photography logo" loading="lazy" decoding="async">
         <p class="section-description">Let's Connect Today!</p>
         <div class="social">
-            <a href="https://www.instagram.com/LOPEZPHOTO/"><i class="fab fa-instagram" style="font-size:30px"></i></a>
-            <a href="mailto:lopezlmarcelo@gmail.com"><i class="fas fa-paper-plane" style="font-size:30px"></i></a>
-            <a href="sms:+13479127485"><i class="fas fa-mobile-alt" style="font-size:30px"></i></a>
+            <a href="https://www.instagram.com/LOPEZPHOTO/" aria-label="Marcelo Lopez on Instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+            <a href="mailto:lopezlmarcelo@gmail.com" aria-label="Email Marcelo Lopez"><i class="fas fa-paper-plane" aria-hidden="true"></i></a>
+            <a href="sms:+13479127485" aria-label="Text Marcelo Lopez"><i class="fas fa-mobile-alt" aria-hidden="true"></i></a>
         </div>
-        <p>Copyright <i class="fas fa-copyright"></i> 2026 Logistics ORM & Marketing</p>
-        <p class="credit">Made in part by <a target="_blank" href="https://github.io/holaimlopez">Marcelo Lopez Lopez</a>.</p>
+        <p>Copyright <i class="fas fa-copyright" aria-hidden="true"></i> {{ site.time | date: "%Y" }} Logistics ORM &amp; Marketing</p>
+        <p class="credit">Made in part by <a href="https://github.com/holaimlopez">Marcelo Lopez Lopez</a>.</p>
     </div>
 </div>
 
-<!-- IntersectionObserver polyfill -->
-<script src="https://raw.githubusercontent.com/w3c/IntersectionObserver/master/polyfill/intersection-observer.js"></script>
+{% if page.gallery %}
+<script src="{{ "/assets/vendor/jquery-3.7.1.min.js" | relative_url }}"></script>
+<script src="{{ "/assets/lightgallery.js" | relative_url }}"></script>
+<script src="{{ "/assets/vendor/jquery.mousewheel-3.2.2.min.js" | relative_url }}"></script>
+{% endif %}
 
-<!-- Lozad -->
-<script src="https://cdn.jsdelivr.net/npm/lozad"></script>
-
-<!-- sticky navbar -->
-<script type="text/javascript">
-window.onscroll = function() {myFunction()};
-
-var navbar = document.getElementById("navbar");
-var brand = document.getElementById("brand");
-var height = navbar.offsetHeight; // find height of the navbar
-var sticky = navbar.offsetTop + height; // find y-pos of the navbar
-
-var wrapper = document.getElementById("navbar-wrapper");
-wrapper.style.height = height + "px";
-
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky");
-    brand.classList.remove("hide");
-    brand.classList.add("fade");
-  } else {
-    navbar.classList.remove("sticky");
-    brand.classList.add("hide");
-  }
-}
-</script>
-
-<!-- lazy loading -->
-<script type="text/javascript">
-// Initialize library
-lozad('.lozad', {
-    load: function(el) {
-        el.src = el.dataset.src;
-        el.onload = function() {
-            el.classList.add('fade');
-        }
-    }
-}).observe()
-
-// Initialize library to lazy load images
-var observer = lozad('.lozad', {
-    threshold: 0.1,
-    load: function(el) {
-        el.src = el.getAttribute("data-src");
-        el.onload = function() {
-            el.classList.add('fade');
-        }
-    }
-})
-
-// Picture observer
-// with default `load` method
-var pictureObserver = lozad('.lozad-picture', {
-    threshold: 0.1
-})
-
-observer.observe()
-pictureObserver.observe()
-</script>
-
-
-<!-- jQuery -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
-<!-- lightgallery -->
-<script type="text/javascript" src="{{ "/assets/lightgallery.js" | relative_url }}"></script>
-
-<!-- cross-browser mousewheel -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
-
-<!-- lightgallery call -->
-<script type="text/javascript">
-    $('#gallery').lightGallery({
-        selector: '.lozad',
-        speed: 200,
-        mode: 'lg-fade',
-        download: false
-    });
-</script>
-
-<script type="text/javascript">
-    function menuExpand() {
-  var x = document.getElementById("navbar");
-  if (x.className === "close sticky") {
-    x.className = "open sticky";
-  } else {
-    x.className = "close sticky";
-  }
-}
-</script>
-
-<!-- font-awesome -->
-<script type="text/javascript" src="https://kit.fontawesome.com/1780dd6d31.js"></script>
+<script src="{{ "/assets/site.js" | relative_url }}"></script>
+<script src="https://kit.fontawesome.com/1780dd6d31.js" crossorigin="anonymous"></script>

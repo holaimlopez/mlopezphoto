@@ -1,20 +1,26 @@
 <div class="section header">
 	<div class="container">
-		<img src="{{ "/assets/img/translogo.webp" | relative_url }}">
-		<h3 class="section-heading">{{ page.title }}</h3>
+		<img src="{{ "/assets/img/translogo.webp" | relative_url }}" alt="Marcelo L. Lopez Photography logo">
+		<h3 class="section-heading">{{ include.title | default: page.title | escape }}</h3>
 		<p class="section-description">
-			{{ page.description }}
+			{{ include.description | default: page.description | escape }}
 		</p>
 		<div class="links">
-            <a href="mailto:lopezlmarcelo@gmail.com"><i class="far fa-paper-plane" style="font-size:22px"></i></a> &emsp;&emsp;&emsp;
-			<a href="sms:+13479127485"><i class="fas fa-mobile-alt" style="font-size:22px"></i></a>
+			<a href="mailto:lopezlmarcelo@gmail.com" aria-label="Email Marcelo Lopez"><i class="far fa-paper-plane" aria-hidden="true"></i></a> &emsp;&emsp;&emsp;
+			<a href="sms:+13479127485" aria-label="Text Marcelo Lopez"><i class="fas fa-mobile-alt" aria-hidden="true"></i></a>
         </div>
 		<div id="navbar-wrapper">
-			<div id="navbar" class="close">
-				<a onclick="menuExpand()"><img id="brand" class="hide" src="{{ "/assets/img/translogo.webp" | relative_url }}"></a>
+			<div id="navbar"{% unless include.collapsible == false %} class="close"{% endunless %}>
+				{% if include.collapsible == false %}
+				<img id="brand" class="hide" src="{{ "/assets/img/translogo.webp" | relative_url }}" alt="">
+				{% else %}
+				<button class="brand-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">
+					<img id="brand" class="hide" src="{{ "/assets/img/translogo.webp" | relative_url }}" alt="">
+				</button>
+				{% endif %}
 				{% assign mypages = site.pages | where: "type", "parent" | sort: "order" %}
-				{% for page in mypages %}
-				<a class="button" href="{{ page.url | relative_url }}">{{ page.title }}</a>
+				{% for nav_page in mypages %}
+				<a class="button" href="{{ nav_page.url | relative_url }}"{% if page.url == nav_page.url %} aria-current="page"{% endif %}>{{ nav_page.title | escape }}</a>
 				{% endfor %}
 			</div>
 		</div>

@@ -1,8 +1,8 @@
 title: Marcelo L. Lopez Photography
-url:  http://127.0.0.1:4000
-baseurl: /
+url: http://127.0.0.1:4000
+baseurl: ""
 
-author: Marcelo Lopez Lopez
+author: Marcelo Lopez
 description: Bronx~NYC Based Portrait Photographer & Political Creative.
 
 include: ['_pages']
@@ -10,13 +10,9 @@ include: ['_pages']
 collections_dir: series
 
 collections:
-  home:
-    output: true
   davgil:
     output: true
   editorial:
-    output: true
-  friends:
     output: true
   fun:
     output: true
@@ -28,3 +24,7 @@ collections:
 markdown: kramdown
 kramdown:
   input: GFM
+
+exclude:
+  - LICENSE.txt
+  - README.md

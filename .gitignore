@@ -1,0 +1,17 @@
+# Jekyll output and caches
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+.bundle/
+/vendor/
+
+# macOS metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Editor files
+.vscode/

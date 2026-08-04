@@ -1,16 +1,15 @@
-Marcelo L. Lopez's Photography website
+# Marcelo L. Lopez Photography
 
-All photographs, imagery, and text content displayed on this website and within this repository are the exclusive property of [Marcelo Lopez/Lopez Photography/LopezPhoto] and are protected by international copyright laws.
+Portfolio website for [mlopezphoto.com](https://mlopezphoto.com), built with Jekyll and deployed to GitHub Pages.
 
-Unless otherwise stated in writing by the owner, you may not:
-- Download, copy, or store the images for anything other than personal viewing.
+## Local development
 
-- Modify, edit, or create derivative works from the photographs.
+```sh
+jekyll serve --config _config.yml,_config_dev.yml
+```
 
-- Use the images for commercial purposes, advertisements, or social media promotion.
+The production build runs automatically for pushes to `main` through [the GitHub Pages workflow](.github/workflows/jekyll.yml).
 
-- Distribute or redistribute the images on other platforms or websites.
+## Copyright
 
-The code used to build this website (HTML/CSS/JS) is provided for educational or portfolio review purposes. However, the media assets (images/videos) are strictly excluded from any implied open-source usage.
-
-If you would like to license a photograph for commercial or personal use, please contact: LOPEZLMARCELO@GMAIL.COM 
+All photographs, imagery, and written content are the property of Marcelo Lopez / Lopez Photography / LopezPhoto. See [LICENSE.txt](LICENSE.txt) for usage terms and licensing contact information.
