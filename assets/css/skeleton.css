@@ -181,7 +181,7 @@ p {
 .feature-image {
   display: block;
   width: 100%;
-  max-width: 360px;
+  max-width: clamp(320px, 88vw, 1080px);
   height: auto;
   margin-right: auto;
   margin-left: auto; }
@@ -466,6 +466,15 @@ form {
   color: #fff;
   font-size: 3rem;
   margin: 2rem 2rem; }
+.brand-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem; }
+.links {
+  display: flex;
+  align-items: center;
+  gap: 2rem; }
 .links i {
   font-size: 2.2rem; }
 .credit {

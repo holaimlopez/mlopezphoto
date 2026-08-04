@@ -1,7 +1,7 @@
 ---
 title: Creative Projects
 layout: rest
-description: With My Creative Leadership
+description: With My Creative Partnership
 type: parent
 order: 5
 ---
