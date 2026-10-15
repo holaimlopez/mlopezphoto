@@ -492,7 +492,7 @@ form {
   border: 0;
   border-top: 1px solid #fff; }
 .credit {
-  font-size: 1.3rem;
+  font-size: inherit;
   margin: 2rem 0 -1rem; }
 
 
